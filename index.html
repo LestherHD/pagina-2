@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventas Hexagonian</title>
+    <link rel="stylesheet" href="/Pagina web/style.css">
+    <script src="/Pagina web/script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Ventas Hexagonian</h1>
+        <p>Cliente: <span id="cliente" contenteditable="true">Escribe el nombre del cliente</span></p>
+        <p>Tel: 47500004</p>
+    </header>
+    <table>
+        <thead>
+            <tr>
+                <th>Cantidad</th>
+                <th>Descripción</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody id="factura">
+            <!-- Aquí se agregarán las filas de la factura -->
+        </tbody>
+    </table>
+    <p id="total">Total: $0.00</p>
+    <button id="agregarItem">Agregar Item</button>
+    <button id="generarPDF">Generar PDF</button>
+    <script src="script.js"></script>
+</body>
+</html>
